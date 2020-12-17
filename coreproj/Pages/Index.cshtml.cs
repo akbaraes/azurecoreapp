@@ -26,6 +26,7 @@ namespace coreproj.Pages
 
         public void OnGet()
         {
+            System.Diagnostics.Trace.TraceInformation("Test App Service Logs");
             courseobj = action.GetAllCourses();
         }
     }
